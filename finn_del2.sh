@@ -1,8 +1,10 @@
 #!/bin/bash
-# finn_del2_v126.sh (Del 2: Nginx, Flask, utils.py, scraper.py, ocr.py)
+# finn_del2.sh v127
+# Del 2: Nginx, Flask, utils.py, scraper.py, ocr.py
+# Oppdatert for å bruke /var/www/finn/ i stedet for /var/www/finn/grok/
 
 LOGFILE="/tmp/finn_setup.log"
-echo "Starting finn_del2_v126.sh at $(date)" >> "$LOGFILE"
+echo "Starting finn_del2.sh at $(date)" >> "$LOGFILE"
 
 # Valider skriptets syntaks før kjøring
 if ! bash -n "$0" >> "$LOGFILE" 2>&1; then
@@ -35,7 +37,6 @@ server {
     listen 80;
     server_name finn.agn3s.com localhost;
 
-    # Proxy til Flask-backend
     location / {
         proxy_pass http://127.0.0.1:5001;
         proxy_set_header Host $host;
@@ -45,44 +46,16 @@ server {
         proxy_pass_header Content-Type;
     }
 
-    # Statiske filer
     location /static {
         alias /var/www/finn/static;
         expires 1y;
         add_header Cache-Control "public";
     }
 
-    # Grok-katalog med filtilgang og katalogvisning
-    location /grok/ {
-        alias /var/www/finn/grok/;
-        autoindex on;
-        autoindex_exact_size on;
-        autoindex_localtime on;
-        autoindex_format json;
-        index off;
-
-        # Sett Content-Type for råfiler
-        types {
-            text/plain py sh txt json log service html;
-        }
-
-        # Blokker sensitive filer
-        location ~ ^/grok/.*\.(env|key|secret)$ {
-            deny all;
-            return 403;
-        }
-
-        add_header X-Debug-Served-By "nginx-grok";
-        access_log /var/log/nginx/finn_grok_access.log;
-        error_log /var/log/nginx/finn_grok_error.log debug;
-    }
-
-    # Ytelsesoptimalisering
     gzip on;
     gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
     gzip_min_length 256;
 
-    # Logging
     error_log /var/log/nginx/finn_error.log;
     access_log /var/log/nginx/finn_access.log;
 }
@@ -139,12 +112,12 @@ def get_db_connection():
         log(f"Feil ved tilkobling til database: {e}")
         return None
 EOF
-if ! sudo mv "$TEMP_UTILS_PY" /var/www/finn/grok/utils.py >> "$LOGFILE" 2>&1; then
+if ! sudo mv "$TEMP_UTILS_PY" /var/www/finn/utils.py >> "$LOGFILE" 2>&1; then
     echo "❌ Feil: Kunne ikke opprette utils.py." | tee -a "$LOGFILE"
     exit 1
 fi
-sudo chown www-data:www-data /var/www/finn/grok/utils.py >> "$LOGFILE" 2>&1
-sudo chmod 644 /var/www/finn/grok/utils.py >> "$LOGFILE" 2>&1
+sudo chown www-data:www-data /var/www/finn/utils.py >> "$LOGFILE" 2>&1
+sudo chmod 644 /var/www/finn/utils.py >> "$LOGFILE" 2>&1
 echo "✅ utils.py opprettet." | tee -a "$LOGFILE"
 
 # 4. Lag scraper.py
@@ -197,12 +170,12 @@ def scrape_finn():
 if __name__ == "__main__":
     scrape_finn()
 EOF
-if ! sudo mv "$TEMP_SCRAPER_PY" /var/www/finn/grok/scraper.py >> "$LOGFILE" 2>&1; then
+if ! sudo mv "$TEMP_SCRAPER_PY" /var/www/finn/scraper.py >> "$LOGFILE" 2>&1; then
     echo "❌ Feil: Kunne ikke opprette scraper.py." | tee -a "$LOGFILE"
     exit 1
 fi
-sudo chown www-data:www-data /var/www/finn/grok/scraper.py >> "$LOGFILE" 2>&1
-sudo chmod 644 /var/www/finn/grok/scraper.py >> "$LOGFILE" 2>&1
+sudo chown www-data:www-data /var/www/finn/scraper.py >> "$LOGFILE" 2>&1
+sudo chmod 644 /var/www/finn/scraper.py >> "$LOGFILE" 2>&1
 echo "✅ scraper.py opprettet." | tee -a "$LOGFILE"
 
 # 5. Lag ocr.py
@@ -247,12 +220,12 @@ def process_ocr():
 if __name__ == "__main__":
     process_ocr()
 EOF
-if ! sudo mv "$TEMP_OCR_PY" /var/www/finn/grok/ocr.py >> "$LOGFILE" 2>&1; then
+if ! sudo mv "$TEMP_OCR_PY" /var/www/finn/ocr.py >> "$LOGFILE" 2>&1; then
     echo "❌ Feil: Kunne ikke opprette ocr.py." | tee -a "$LOGFILE"
     exit 1
 fi
-sudo chown www-data:www-data /var/www/finn/grok/ocr.py >> "$LOGFILE" 2>&1
-sudo chmod 644 /var/www/finn/grok/ocr.py >> "$LOGFILE" 2>&1
+sudo chown www-data:www-data /var/www/finn/ocr.py >> "$LOGFILE" 2>&1
+sudo chmod 644 /var/www/finn/ocr.py >> "$LOGFILE" 2>&1
 echo "✅ ocr.py opprettet." | tee -a "$LOGFILE"
 
 # 6. Test Flask direkte
