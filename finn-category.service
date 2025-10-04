@@ -1,0 +1,26 @@
+[Unit]
+Description=FINN Category Service
+After=network.target postgresql.service
+StartLimitIntervalSec=60
+StartLimitBurst=3
+
+[Service]
+ExecStart=/usr/bin/python3 /var/www/finn/category.py
+WorkingDirectory=/var/www/finn
+Restart=always
+RestartSec=3600
+User=www-data
+Group=www-data
+Environment=PYTHONUNBUFFERED=1
+Environment=DB_NAME=finn
+Environment=DB_USER=www-data
+Environment=DB_PASSWORD=finn_2025
+Environment=DB_HOST=localhost
+Environment=LOG_DIR=/var/www/finn
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

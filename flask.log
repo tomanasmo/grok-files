@@ -1,0 +1,915 @@
+[2025-10-01 16:02:16] Starter Flask-server på port 5001
+[2025-10-01 17:41:51] Starter Flask-server på port 5001
+[2025-10-01 17:41:52] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:41:52] Serverer index.html
+[2025-10-01 17:48:17] Starter Flask-server på port 5001
+[2025-10-01 17:48:17] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:48:17] Serverer index.html
+[2025-10-01 17:50:37] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:50:37] Serverer index.html
+[2025-10-01 17:50:37] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 17:50:37] Scraper status hentet: Idle
+[2025-10-01 17:50:37] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 17:50:37] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 17:50:38] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 17:50:38] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 17:50:38] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 17:50:38] Category status hentet: Idle
+[2025-10-01 17:52:00] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:52:00] Serverer index.html
+[2025-10-01 17:52:00] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 17:52:00] Scraper status hentet: Idle
+[2025-10-01 17:52:00] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 17:52:00] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 17:52:00] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 17:52:00] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 17:52:00] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 17:52:00] Category status hentet: Idle
+[2025-10-01 17:53:11] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:53:11] Serverer index.html
+[2025-10-01 17:53:12] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 17:53:12] Scraper status hentet: Idle
+[2025-10-01 17:53:12] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 17:53:12] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 17:53:12] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 17:53:12] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 17:53:12] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 17:53:12] Category status hentet: Idle
+[2025-10-01 17:53:26] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:53:26] Serverer index.html
+[2025-10-01 17:53:27] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 17:53:27] Scraper status hentet: Idle
+[2025-10-01 17:53:27] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 17:53:27] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 17:53:27] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 17:53:27] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 17:53:27] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 17:53:27] Category status hentet: Idle
+[2025-10-01 17:53:43] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:53:43] Serverer index.html
+[2025-10-01 17:53:43] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 17:53:43] Scraper status hentet: Idle
+[2025-10-01 17:53:43] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 17:53:43] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 17:53:43] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 17:53:43] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 17:53:43] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 17:53:43] Category status hentet: Idle
+[2025-10-01 17:54:14] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:54:14] Serverer index.html
+[2025-10-01 17:54:14] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 17:54:14] Scraper status hentet: Idle
+[2025-10-01 17:54:14] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 17:54:14] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 17:54:14] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 17:54:14] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 17:54:14] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 17:54:14] Category status hentet: Idle
+[2025-10-01 17:55:02] Starter Flask-server på port 5001
+[2025-10-01 17:55:02] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:55:02] Serverer index.html
+[2025-10-01 17:55:06] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:55:06] Serverer index.html
+[2025-10-01 17:55:07] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:55:07] Serverer index.html
+[2025-10-01 17:58:27] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 17:58:27] Serverer index.html
+[2025-10-01 18:08:44] Starter Flask-server på port 5001
+[2025-10-01 18:08:44] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:08:44] Serverer index.html
+[2025-10-01 18:08:48] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:08:48] Serverer index.html
+[2025-10-01 18:08:48] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:08:48] Scraper status hentet: Idle
+[2025-10-01 18:08:48] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:08:48] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:08:48] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:08:48] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:08:48] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:08:48] Category status hentet: Idle
+[2025-10-01 18:08:49] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:08:49] Serverer index.html
+[2025-10-01 18:08:49] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:08:49] Scraper status hentet: Idle
+[2025-10-01 18:08:49] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:08:49] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:08:49] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:08:49] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:08:49] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:08:49] Category status hentet: Idle
+[2025-10-01 18:08:58] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:08:58] Serverer index.html
+[2025-10-01 18:08:58] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:08:58] Scraper status hentet: Idle
+[2025-10-01 18:08:58] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:08:58] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:08:58] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:08:58] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:08:58] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:08:58] Category status hentet: Idle
+[2025-10-01 18:17:15] Starter Flask-server på port 5001
+[2025-10-01 18:19:13] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:19:13] Serverer index.html
+[2025-10-01 18:19:13] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:19:13] Scraper status hentet: Idle
+[2025-10-01 18:19:13] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:19:13] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:19:14] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:19:14] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:19:14] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:19:14] Category status hentet: Idle
+[2025-10-01 18:19:14] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:19:14] Serverer index.html
+[2025-10-01 18:19:14] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:19:14] Scraper status hentet: Idle
+[2025-10-01 18:19:14] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:19:14] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:19:14] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:19:14] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:19:14] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:19:14] Category status hentet: Idle
+[2025-10-01 18:19:15] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:19:15] Serverer index.html
+[2025-10-01 18:19:15] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:19:15] Scraper status hentet: Idle
+[2025-10-01 18:19:15] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:19:15] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:19:15] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:19:15] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:19:15] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:19:15] Category status hentet: Idle
+[2025-10-01 18:19:15] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:19:15] Serverer index.html
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:19:16] Scraper status hentet: Idle
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:19:16] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:19:16] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:19:16] Category status hentet: Idle
+[2025-10-01 18:19:16] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:19:16] Serverer index.html
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:19:16] Scraper status hentet: Idle
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:19:16] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:19:16] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:19:16] Category status hentet: Idle
+[2025-10-01 18:19:16] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:19:16] Serverer index.html
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:19:16] Scraper status hentet: Idle
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:19:16] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:19:16] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:19:16] Category status hentet: Idle
+[2025-10-01 18:19:16] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:19:16] Serverer index.html
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:19:16] Scraper status hentet: Idle
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:19:16] Feil ved henting av data fra torget: permission denied for table torget
+
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:19:16] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:19:16] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:19:16] Category status hentet: Idle
+[2025-10-01 18:36:49] Starter Flask-server på port 5001
+[2025-10-01 18:40:38] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:40:38] Serverer index.html
+[2025-10-01 18:40:38] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:40:38] Scraper status hentet: Idle
+[2025-10-01 18:40:38] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:40:38] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 18:40:38] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:40:38] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:40:38] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:40:38] Category status hentet: Idle
+[2025-10-01 18:57:23] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:57:23] Serverer index.html
+[2025-10-01 18:57:23] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:57:23] Scraper status hentet: Idle
+[2025-10-01 18:57:23] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:57:23] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 18:57:23] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:57:23] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:57:23] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:57:23] Category status hentet: Idle
+[2025-10-01 18:57:24] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 18:57:24] Serverer index.html
+[2025-10-01 18:57:24] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 18:57:24] Scraper status hentet: Idle
+[2025-10-01 18:57:24] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 18:57:24] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 18:57:24] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 18:57:24] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 18:57:24] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 18:57:24] Category status hentet: Idle
+[2025-10-01 19:09:18] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:09:18] Serverer index.html
+[2025-10-01 19:09:18] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:09:18] Scraper status hentet: Idle
+[2025-10-01 19:09:18] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:09:18] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:09:19] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:09:19] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:09:19] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:09:19] Category status hentet: Idle
+[2025-10-01 19:09:20] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:09:20] Serverer index.html
+[2025-10-01 19:09:20] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:09:20] Scraper status hentet: Idle
+[2025-10-01 19:09:20] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:09:20] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:09:20] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:09:20] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:09:20] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:09:20] Category status hentet: Idle
+[2025-10-01 19:14:40] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:40] Serverer index.html
+[2025-10-01 19:14:40] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:40] Scraper status hentet: Idle
+[2025-10-01 19:14:40] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:40] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:41] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:41] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:41] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:41] Category status hentet: Idle
+[2025-10-01 19:14:41] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:41] Serverer index.html
+[2025-10-01 19:14:41] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:41] Scraper status hentet: Idle
+[2025-10-01 19:14:41] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:41] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:41] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:41] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:41] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:41] Category status hentet: Idle
+[2025-10-01 19:14:42] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:42] Serverer index.html
+[2025-10-01 19:14:42] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:42] Scraper status hentet: Idle
+[2025-10-01 19:14:42] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:42] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:42] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:42] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:42] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:42] Category status hentet: Idle
+[2025-10-01 19:14:43] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:43] Serverer index.html
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:43] Scraper status hentet: Idle
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:43] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:43] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:43] Category status hentet: Idle
+[2025-10-01 19:14:43] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:43] Serverer index.html
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:43] Scraper status hentet: Idle
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:43] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:43] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:43] Category status hentet: Idle
+[2025-10-01 19:14:43] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:43] Serverer index.html
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:43] Scraper status hentet: Idle
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:43] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:43] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:43] Category status hentet: Idle
+[2025-10-01 19:14:43] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:43] Serverer index.html
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:43] Scraper status hentet: Idle
+[2025-10-01 19:14:43] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:43] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:44] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:44] Category status hentet: Idle
+[2025-10-01 19:14:44] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:44] Serverer index.html
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:44] Scraper status hentet: Idle
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:44] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:44] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:44] Category status hentet: Idle
+[2025-10-01 19:14:44] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:44] Serverer index.html
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:44] Scraper status hentet: Idle
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:44] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:44] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:44] Category status hentet: Idle
+[2025-10-01 19:14:44] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:44] Serverer index.html
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:44] Scraper status hentet: Idle
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:44] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:44] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:44] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:44] Category status hentet: Idle
+[2025-10-01 19:14:45] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:45] Serverer index.html
+[2025-10-01 19:14:45] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:45] Scraper status hentet: Idle
+[2025-10-01 19:14:45] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:45] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:45] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:45] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:45] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:45] Category status hentet: Idle
+[2025-10-01 19:14:45] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:45] Serverer index.html
+[2025-10-01 19:14:45] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:45] Scraper status hentet: Idle
+[2025-10-01 19:14:45] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:45] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:45] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:45] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:45] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:45] Category status hentet: Idle
+[2025-10-01 19:14:56] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:14:56] Serverer index.html
+[2025-10-01 19:14:56] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:14:56] Scraper status hentet: Idle
+[2025-10-01 19:14:56] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:14:56] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:14:56] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:14:56] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:14:56] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:14:56] Category status hentet: Idle
+[2025-10-01 19:35:05] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:35:05] Serverer index.html
+[2025-10-01 19:35:06] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:35:06] Scraper status hentet: Idle
+[2025-10-01 19:35:06] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:35:06] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:35:06] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:35:06] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:35:06] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:35:06] Category status hentet: Idle
+[2025-10-01 19:35:40] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:35:40] Serverer index.html
+[2025-10-01 19:35:40] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:35:40] Scraper status hentet: Idle
+[2025-10-01 19:35:40] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:35:40] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:35:40] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:35:40] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:35:41] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:35:41] Category status hentet: Idle
+[2025-10-01 19:35:41] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:35:41] Serverer index.html
+[2025-10-01 19:35:42] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:35:42] Scraper status hentet: Idle
+[2025-10-01 19:35:42] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:35:42] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:35:42] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:35:42] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:35:42] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:35:42] Category status hentet: Idle
+[2025-10-01 19:35:44] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:35:44] Serverer index.html
+[2025-10-01 19:35:44] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:35:44] Scraper status hentet: Idle
+[2025-10-01 19:35:45] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:35:45] Kan ikke hente data fra torget: Ingen databasetilkobling
+[2025-10-01 19:35:45] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:35:45] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:35:45] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:35:45] Category status hentet: Idle
+[2025-10-01 19:35:49] Starter Flask-server på port 5001
+[2025-10-01 19:35:49] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:35:49] Serverer index.html
+[2025-10-01 19:36:11] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:11] Serverer index.html
+[2025-10-01 19:36:12] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:36:12] Scraper status hentet: Idle
+[2025-10-01 19:36:12] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:36:12] Hentet 1 rader fra torget
+[2025-10-01 19:36:12] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:36:12] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:36:12] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:36:12] Category status hentet: Idle
+[2025-10-01 19:36:13] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:13] Serverer index.html
+[2025-10-01 19:36:13] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:36:13] Scraper status hentet: Idle
+[2025-10-01 19:36:13] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:36:13] Hentet 1 rader fra torget
+[2025-10-01 19:36:13] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:36:13] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:36:13] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:36:13] Category status hentet: Idle
+[2025-10-01 19:36:24] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:24] Serverer index.html
+[2025-10-01 19:36:24] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:36:24] Scraper status hentet: Idle
+[2025-10-01 19:36:24] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:36:24] Hentet 1 rader fra torget
+[2025-10-01 19:36:24] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:36:24] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:36:25] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:36:25] Category status hentet: Idle
+[2025-10-01 19:36:43] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:43] Serverer index.html
+[2025-10-01 19:36:43] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:36:43] Scraper status hentet: Idle
+[2025-10-01 19:36:43] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:36:43] Hentet 1 rader fra torget
+[2025-10-01 19:36:43] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:36:43] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:36:43] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:36:43] Category status hentet: Idle
+[2025-10-01 19:36:44] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:44] Serverer index.html
+[2025-10-01 19:36:44] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:36:44] Scraper status hentet: Idle
+[2025-10-01 19:36:44] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:36:44] Hentet 1 rader fra torget
+[2025-10-01 19:36:44] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:36:44] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:36:44] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:36:44] Category status hentet: Idle
+[2025-10-01 19:36:45] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:45] Serverer index.html
+[2025-10-01 19:36:45] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:36:45] Scraper status hentet: Idle
+[2025-10-01 19:36:45] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:36:45] Hentet 1 rader fra torget
+[2025-10-01 19:36:45] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:36:45] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:36:45] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:36:45] Category status hentet: Idle
+[2025-10-01 19:36:45] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:45] Serverer index.html
+[2025-10-01 19:36:45] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:36:45] Scraper status hentet: Idle
+[2025-10-01 19:36:45] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:36:45] Hentet 1 rader fra torget
+[2025-10-01 19:36:45] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:36:45] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:36:45] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:36:45] Category status hentet: Idle
+[2025-10-01 19:36:46] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:46] Serverer index.html
+[2025-10-01 19:36:46] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:36:46] Scraper status hentet: Idle
+[2025-10-01 19:36:46] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:36:46] Hentet 1 rader fra torget
+[2025-10-01 19:36:46] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:36:46] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:36:46] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:36:46] Category status hentet: Idle
+[2025-10-01 19:36:51] Starter Flask-server på port 5001
+[2025-10-01 19:36:52] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:36:52] Serverer index.html
+[2025-10-01 19:38:06] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:38:06] Serverer index.html
+[2025-10-01 19:38:06] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:38:06] Scraper status hentet: Idle
+[2025-10-01 19:38:06] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:38:06] Hentet 1 rader fra torget
+[2025-10-01 19:38:06] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:38:06] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:38:06] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:38:06] Category status hentet: Idle
+[2025-10-01 19:47:58] Starter Flask-server på port 5001
+[2025-10-01 19:47:58] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:47:58] Serverer index.html
+[2025-10-01 19:48:09] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:09] Serverer index.html
+[2025-10-01 19:48:09] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:09] Scraper status hentet: Idle
+[2025-10-01 19:48:09] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:09] Hentet 1 rader fra torget
+[2025-10-01 19:48:09] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:09] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:09] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:09] Category status hentet: Idle
+[2025-10-01 19:48:10] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:10] Serverer index.html
+[2025-10-01 19:48:10] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:10] Scraper status hentet: Idle
+[2025-10-01 19:48:10] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:10] Hentet 1 rader fra torget
+[2025-10-01 19:48:10] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:10] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:10] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:10] Category status hentet: Idle
+[2025-10-01 19:48:10] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:10] Serverer index.html
+[2025-10-01 19:48:11] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:11] Scraper status hentet: Idle
+[2025-10-01 19:48:11] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:11] Hentet 1 rader fra torget
+[2025-10-01 19:48:11] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:11] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:11] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:11] Category status hentet: Idle
+[2025-10-01 19:48:11] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:11] Serverer index.html
+[2025-10-01 19:48:11] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:11] Scraper status hentet: Idle
+[2025-10-01 19:48:11] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:11] Hentet 1 rader fra torget
+[2025-10-01 19:48:11] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:11] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:11] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:11] Category status hentet: Idle
+[2025-10-01 19:48:12] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:12] Serverer index.html
+[2025-10-01 19:48:12] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:12] Scraper status hentet: Idle
+[2025-10-01 19:48:12] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:12] Hentet 1 rader fra torget
+[2025-10-01 19:48:12] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:12] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:12] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:12] Category status hentet: Idle
+[2025-10-01 19:48:12] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:12] Serverer index.html
+[2025-10-01 19:48:12] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:12] Scraper status hentet: Idle
+[2025-10-01 19:48:12] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:12] Hentet 1 rader fra torget
+[2025-10-01 19:48:12] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:12] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:12] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:12] Category status hentet: Idle
+[2025-10-01 19:48:13] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:13] Serverer index.html
+[2025-10-01 19:48:13] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:13] Scraper status hentet: Idle
+[2025-10-01 19:48:13] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:13] Hentet 1 rader fra torget
+[2025-10-01 19:48:13] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:13] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:13] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:13] Category status hentet: Idle
+[2025-10-01 19:48:13] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:13] Serverer index.html
+[2025-10-01 19:48:13] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:13] Scraper status hentet: Idle
+[2025-10-01 19:48:13] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:13] Hentet 1 rader fra torget
+[2025-10-01 19:48:13] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:13] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:13] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:13] Category status hentet: Idle
+[2025-10-01 19:48:13] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:13] Serverer index.html
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:14] Scraper status hentet: Idle
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:14] Hentet 1 rader fra torget
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:14] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:14] Category status hentet: Idle
+[2025-10-01 19:48:14] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:14] Serverer index.html
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:14] Scraper status hentet: Idle
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:14] Hentet 1 rader fra torget
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:14] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:14] Category status hentet: Idle
+[2025-10-01 19:48:14] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:48:14] Serverer index.html
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:48:14] Scraper status hentet: Idle
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:48:14] Hentet 1 rader fra torget
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:48:14] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:48:14] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:48:14] Category status hentet: Idle
+[2025-10-01 19:56:32] Starter Flask-server på port 5001
+[2025-10-01 19:56:32] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:56:32] Serverer index.html
+[2025-10-01 19:56:34] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:56:34] Serverer index.html
+[2025-10-01 19:56:35] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:56:35] Scraper status hentet: Running
+[2025-10-01 19:56:35] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:56:35] Hentet 1 rader fra torget
+[2025-10-01 19:56:35] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:56:35] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:56:35] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:56:35] Category status hentet: Idle
+[2025-10-01 19:56:35] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:56:35] Serverer index.html
+[2025-10-01 19:56:35] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:56:35] Scraper status hentet: Running
+[2025-10-01 19:56:35] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:56:35] Hentet 1 rader fra torget
+[2025-10-01 19:56:35] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:56:35] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:56:35] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:56:35] Category status hentet: Idle
+[2025-10-01 19:56:58] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 19:56:58] Serverer index.html
+[2025-10-01 19:56:58] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 19:56:58] Scraper status hentet: Idle
+[2025-10-01 19:56:58] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 19:56:58] Hentet 1 rader fra torget
+[2025-10-01 19:56:58] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 19:56:58] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 19:56:58] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 19:56:58] Category status hentet: Idle
+[2025-10-01 20:05:10] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 20:05:10] Serverer index.html
+[2025-10-01 20:05:10] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 20:05:10] Scraper status hentet: Idle
+[2025-10-01 20:05:10] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 20:05:10] Hentet 1 rader fra torget
+[2025-10-01 20:05:10] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 20:05:10] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 20:05:10] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 20:05:10] Category status hentet: Idle
+[2025-10-01 20:07:54] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 20:07:54] Serverer index.html
+[2025-10-01 20:07:54] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 20:07:54] Scraper status hentet: Idle
+[2025-10-01 20:07:54] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 20:07:54] Hentet 1 rader fra torget
+[2025-10-01 20:07:54] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 20:07:54] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 20:07:54] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 20:07:54] Category status hentet: Idle
+[2025-10-01 21:00:38] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:00:38] Serverer index.html
+[2025-10-01 21:00:38] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 21:00:38] Scraper status hentet: Idle
+[2025-10-01 21:00:38] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 21:00:38] Hentet 0 rader fra torget
+[2025-10-01 21:00:38] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 21:00:38] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 21:00:39] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 21:00:39] Category status hentet: Idle
+[2025-10-01 21:00:39] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:00:39] Serverer index.html
+[2025-10-01 21:00:39] Mottok GET-forespørsel for /api/scraper_status
+[2025-10-01 21:00:39] Scraper status hentet: Idle
+[2025-10-01 21:00:39] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-01 21:00:39] Hentet 0 rader fra torget
+[2025-10-01 21:00:39] Mottok GET-forespørsel for /api/ocr_status
+[2025-10-01 21:00:39] OCR status hentet fra /var/www/finn/ocr_status.txt: Idle
+[2025-10-01 21:00:39] Mottok GET-forespørsel for /api/category_status
+[2025-10-01 21:00:39] Category status hentet: Idle
+[2025-10-01 21:18:11] Starter Flask-server på port 5001
+[2025-10-01 21:18:12] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:12] Serverer index.html
+[2025-10-01 21:18:25] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:25] Serverer index.html
+[2025-10-01 21:18:46] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:46] Serverer index.html
+[2025-10-01 21:18:47] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:47] Serverer index.html
+[2025-10-01 21:18:47] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:47] Serverer index.html
+[2025-10-01 21:18:48] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:48] Serverer index.html
+[2025-10-01 21:18:48] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:48] Serverer index.html
+[2025-10-01 21:18:48] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:48] Serverer index.html
+[2025-10-01 21:18:49] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:49] Serverer index.html
+[2025-10-01 21:18:49] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:18:49] Serverer index.html
+[2025-10-01 21:21:10] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:21:10] Serverer index.html
+[2025-10-01 21:33:17] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 21:33:17] Serverer index.html
+[2025-10-01 22:15:54] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:15:54] Serverer index.html
+[2025-10-01 22:29:59] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:29:59] Serverer index.html
+[2025-10-01 22:32:33] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:32:33] Serverer index.html
+[2025-10-01 22:32:33] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:32:33] Serverer index.html
+[2025-10-01 22:32:34] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:32:34] Serverer index.html
+[2025-10-01 22:33:09] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:33:09] Serverer index.html
+[2025-10-01 22:47:13] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:47:13] Serverer index.html
+[2025-10-01 22:48:10] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:48:10] Serverer index.html
+[2025-10-01 22:48:32] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:48:32] Serverer index.html
+[2025-10-01 22:49:30] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:49:30] Serverer index.html
+[2025-10-01 22:49:30] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:49:30] Serverer index.html
+[2025-10-01 22:49:31] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:49:31] Serverer index.html
+[2025-10-01 22:49:31] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:49:31] Serverer index.html
+[2025-10-01 22:49:31] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:49:31] Serverer index.html
+[2025-10-01 22:49:31] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:49:31] Serverer index.html
+[2025-10-01 22:50:01] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:50:01] Serverer index.html
+[2025-10-01 22:50:02] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:50:02] Serverer index.html
+[2025-10-01 22:50:02] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:50:02] Serverer index.html
+[2025-10-01 22:50:02] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:50:02] Serverer index.html
+[2025-10-01 22:50:03] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:50:03] Serverer index.html
+[2025-10-01 22:59:03] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 22:59:03] Serverer index.html
+[2025-10-01 23:03:44] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:03:44] Serverer index.html
+[2025-10-01 23:10:26] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:10:26] Serverer index.html
+[2025-10-01 23:10:37] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:10:37] Serverer index.html
+[2025-10-01 23:12:22] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:12:22] Serverer index.html
+[2025-10-01 23:12:26] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:12:26] Serverer index.html
+[2025-10-01 23:14:21] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:14:21] Serverer index.html
+[2025-10-01 23:16:29] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:16:29] Serverer index.html
+[2025-10-01 23:16:36] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:16:36] Serverer index.html
+[2025-10-01 23:37:21] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-01 23:37:21] Serverer index.html
+[2025-10-02 12:56:59] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 12:56:59] Serverer index.html
+[2025-10-02 14:07:27] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:07:27] Serverer index.html
+[2025-10-02 14:07:34] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:07:34] Serverer index.html
+[2025-10-02 14:12:11] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:12:11] Serverer index.html
+[2025-10-02 14:15:36] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:15:36] Serverer index.html
+[2025-10-02 14:15:36] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:15:36] Serverer index.html
+[2025-10-02 14:15:36] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:15:36] Serverer index.html
+[2025-10-02 14:15:36] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:15:36] Serverer index.html
+[2025-10-02 14:15:37] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:15:37] Serverer index.html
+[2025-10-02 14:15:37] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:15:37] Serverer index.html
+[2025-10-02 14:15:37] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:15:37] Serverer index.html
+[2025-10-02 14:51:45] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:51:45] Serverer index.html
+[2025-10-02 14:52:26] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:52:26] Serverer index.html
+[2025-10-02 14:52:28] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:52:28] Serverer index.html
+[2025-10-02 14:52:30] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:52:30] Serverer index.html
+[2025-10-02 14:55:27] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:55:27] Serverer index.html
+[2025-10-02 14:56:29] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 14:56:29] Serverer index.html
+[2025-10-02 15:06:38] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 15:06:38] Serverer index.html
+[2025-10-02 17:09:53] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:09:53] Serverer index.html
+[2025-10-02 17:09:53] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:09:53] Serverer index.html
+[2025-10-02 17:09:53] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:09:53] Serverer index.html
+[2025-10-02 17:09:53] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:09:53] Serverer index.html
+[2025-10-02 17:09:54] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:09:54] Serverer index.html
+[2025-10-02 17:09:54] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:09:54] Serverer index.html
+[2025-10-02 17:09:54] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:09:54] Serverer index.html
+[2025-10-02 17:13:46] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:13:46] Serverer index.html
+[2025-10-02 17:22:19] Starter Flask-server på port 5001
+[2025-10-02 17:23:02] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:23:02] Serverer index.html
+[2025-10-02 17:44:03] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:44:03] Serverer index.html
+[2025-10-02 17:45:54] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 17:45:54] Serverer index.html
+[2025-10-02 18:01:18] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 18:01:18] Serverer index.html
+[2025-10-02 18:07:34] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 18:07:34] Serverer index.html
+[2025-10-02 18:07:35] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-02 18:07:35] Serverer index.html
+[2025-10-03 13:16:23] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:23] Serverer index.html
+[2025-10-03 13:16:23] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:23] Serverer index.html
+[2025-10-03 13:16:24] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:24] Serverer index.html
+[2025-10-03 13:16:25] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:25] Serverer index.html
+[2025-10-03 13:16:25] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:25] Serverer index.html
+[2025-10-03 13:16:25] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:25] Serverer index.html
+[2025-10-03 13:16:26] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:26] Serverer index.html
+[2025-10-03 13:16:26] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:26] Serverer index.html
+[2025-10-03 13:16:26] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:26] Serverer index.html
+[2025-10-03 13:16:27] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:27] Serverer index.html
+[2025-10-03 13:16:27] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:27] Serverer index.html
+[2025-10-03 13:16:27] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 13:16:27] Serverer index.html
+[2025-10-03 17:50:22] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 17:50:22] Serverer index.html
+[2025-10-03 17:50:22] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 17:50:22] Serverer index.html
+[2025-10-03 17:50:22] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 17:50:22] Serverer index.html
+[2025-10-03 17:50:22] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 17:50:22] Serverer index.html
+[2025-10-03 17:50:22] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 17:50:22] Serverer index.html
+[2025-10-03 17:50:22] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 17:50:22] Serverer index.html
+[2025-10-03 17:50:22] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 17:50:22] Serverer index.html
+[2025-10-03 17:50:23] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 17:50:23] Serverer index.html
+[2025-10-03 18:18:33] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 18:18:33] Serverer index.html
+[2025-10-03 18:18:33] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 18:18:33] Serverer index.html
+[2025-10-03 18:18:34] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 18:18:34] Serverer index.html
+[2025-10-03 18:33:02] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 18:33:02] Serverer index.html
+[2025-10-03 18:33:07] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 18:33:07] Serverer index.html
+[2025-10-03 18:35:31] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 18:35:31] Serverer index.html
+[2025-10-03 21:48:36] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 21:48:36] Serverer index.html
+[2025-10-03 21:48:42] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 21:48:42] Serverer index.html
+[2025-10-03 21:48:46] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 21:48:46] Serverer index.html
+[2025-10-03 21:50:54] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 21:50:54] Serverer index.html
+[2025-10-03 22:09:38] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-03 22:09:38] Serverer index.html
+[2025-10-04 03:32:23] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-04 03:32:23] Serverer index.html
+[2025-10-04 05:19:44] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-04 05:19:44] Serverer index.html

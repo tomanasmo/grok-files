@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Varmepumper på FINN</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .statuses { font-weight: bold; margin-bottom: 10px; }
+        .status { color: green; margin-bottom: 10px; }
+        .filters { margin-bottom: 10px; }
+        .filters label { margin-right: 15px; }
+    </style>
+    <script>
+        let allAds = []; // Lagre rådata for filtrering
+
+        // Oppdater kategori via POST-forespørsel
+        async function updateCategory(finn_code, category) {
+            try {
+                const response = await fetch(`/api/update_category/${finn_code}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ category: category })
+                });
+                const data = await response.json();
+                if (data.success) {
+                    fetchAds(); // Oppdater tabellen for å vise ny kategori
+                }
+            } catch (error) {
+                // Ingen tilbakemelding, feil logges på serversiden
+            }
+        }
+
+        // Oppdater statuser
+        async function fetchStatuses() {
+            const statusesDiv = document.getElementById('statuses');
+            statusesDiv.innerHTML = 'Laster statuser...';
+            let statusText = '';
+            try {
+                const scraperResponse = await fetch('/api/scraper_status');
+                const scraperData = await scraperResponse.json();
+                statusText += `Scraper: ${scraperData.status} | `;
+            } catch (error) {
+                statusText += 'Scraper: Feil | ';
+            }
+            try {
+                const ocrResponse = await fetch('/api/ocr_status');
+                const ocrData = await ocrResponse.json();
+                statusText += `OCR: ${ocrData.status} | `;
+            } and
+            try {
+                const categoryResponse = await fetch('/api/category_status');
+                const categoryData = await categoryResponse.json();
+                statusText += `Category: ${categoryData.status} | `;
+            } catch (error) {
+                statusText += 'Category: Feil | ';
+            }
+            statusesDiv.innerHTML = statusText.slice(0, -3); // Fjern siste "| "
+        }
+
+        // Filtrer annonser basert på avkrysningsbokser
+        function filterAds() {
+            const showUbehandlet = document.getElementById('filterUbehandlet').checked;
+            const showVoid = document.getElementById('filterVoid').checked;
+            const showVarmepumpe = document.getElementById('filterVarmepumpe').checked;
+            const tableBody = document.getElementById('adsTable').getElementsByTagName('tbody')[0];
+            tableBody.innerHTML = ''; // Tøm tabellen
+
+            // Sjekk om minst én boks er avkrysset
+            if (!showUbehandlet && !showVoid && !showVarmepumpe) {
+                document.getElementById('status').innerText = 'Ingen kategorier valgt';
+                return;
+            }
+
+            const filteredAds = allAds.filter(item => {
+                return (showUbehandlet && item.category === 'Ubehandlet') ||
+                       (showVoid && item.category === 'Void') ||
+                       (showVarmepumpe && item.category === 'Varmepumpe');
+            });
+
+            filteredAds.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><a href="https://www.finn.no/recommerce/forsale/item/${item.finn_code}" target="_blank">${item.finn_code || ''}</a></td>
+                    <td>${item.title || ''}</td>
+                    <td>${item.price || ''}</td>
+                    <td>${item.created_at || ''}</td>
+                    <td>${item.KategoriTest || ''}</td>
+                    <td>
+                        <select onchange="updateCategory('${item.finn_code}', this.value)">
+                            <option value="Ubehandlet" ${item.category === 'Ubehandlet' ? 'selected' : ''}>Ubehandlet</option>
+                            <option value="Varmepumpe" ${item.category === 'Varmepumpe' ? 'selected' : ''}>Varmepumpe</option>
+                            <option value="Void" ${item.category === 'Void' ? 'selected' : ''}>Void</option>
+                        </select>
+                    </td>
+                `;
+                tableBody.appendChild(row);
+            });
+
+            document.getElementById('status').innerText = `Sist oppdatert: ${allAds.length > 0 ? allAds[0].updated_at : 'Ukjent'}, Antall rader: ${filteredAds.length}`;
+        }
+
+        // Asynkron henting av annonser
+        async function fetchAds() {
+            try {
+                const response = await fetch('/api/get_heat_pumps');
+                const data = await response.json();
+                if (data.error) {
+                    document.getElementById('status').innerText = 'Feil ved henting av annonser: ' + data.error;
+                    return;
+                }
+                allAds = data.items || []; // Lagre rådata
+                allAds.updated_at = data.updated_at || 'Ukjent';
+                filterAds(); // Filtrer og vis annonser
+            } catch (error) {
+                document.getElementById('status').innerText = 'Feil ved henting av annonser: ' + error;
+            }
+        }
+
+        // Kjør begge funksjonene ved lasting
+        window.onload = () => {
+            fetchStatuses();
+            fetchAds();
+        };
+    </script>
+</head>
+<body>
+    <h1>Varmepumper på FINN</h1>
+    <div class="filters">
+        <label><input type="checkbox" id="filterUbehandlet" onchange="filterAds()" checked> Ubehandlet</label>
+        <label><input type="checkbox" id="filterVoid" onchange="filterAds()"> Void</label>
+        <label><input type="checkbox" id="filterVarmepumpe" onchange="filterAds()"> Varmepumpe</label>
+    </div>
+    <div id="statuses" class="statuses">Laster statuser...</div>
+    <div id="status" class="status">Laster annonser...</div>
+    <table id="adsTable">
+        <thead>
+            <tr>
+                <th>Finn-kode</th>
+                <th>Tittel</th>
+                <th>Pris</th>
+                <th>Opprettet</th>
+                <th>Finn-kategori</th>
+                <th>Kategori</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>
