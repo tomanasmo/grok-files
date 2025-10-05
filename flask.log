@@ -929,3 +929,11 @@
 [2025-10-04 16:08:46] Serverer index.html
 [2025-10-05 03:58:05] Mottok forespørsel for /, sjekker /var/www/finn/index.html
 [2025-10-05 03:58:05] Serverer index.html
+[2025-10-05 17:44:33] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-05 17:44:33] Serverer index.html
+[2025-10-05 17:44:47] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-05 17:44:47] Hentet 192 rader fra torget
+[2025-10-05 17:45:19] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-05 17:45:19] Hentet 192 rader fra torget
+[2025-10-05 17:46:36] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-05 17:46:36] Hentet 192 rader fra torget
