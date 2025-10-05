@@ -1,7 +1,7 @@
 #!/bin/bash
-# finn_del2.sh v127
-# Del 2: Nginx, Flask, utils.py, scraper.py, ocr.py
-# Oppdatert for å bruke /var/www/finn/ i stedet for /var/www/finn/grok/
+# finn_del2.sh v128
+# Del 2: Nginx, Flask, utils.py, scraper.py, ocr.py, index.html
+# Oppdatert for å generere index.html v1.1 med fiks for try-catch-feil
 
 LOGFILE="/tmp/finn_setup.log"
 echo "Starting finn_del2.sh at $(date)" >> "$LOGFILE"
@@ -15,7 +15,7 @@ if ! bash -n "$0" >> "$LOGFILE" 2>&1; then
 fi
 echo "✅ Skriptsyntaks validert." | tee -a "$LOGFILE"
 
-echo "🚀 Fortsetter oppsett for FINN scraper - Del 2: Nginx, Flask, utils.py, scraper.py, ocr.py..." | tee -a "$LOGFILE"
+echo "🚀 Fortsetter oppsett for FINN scraper - Del 2: Nginx, Flask, utils.py, scraper.py, ocr.py, index.html..." | tee -a "$LOGFILE"
 
 # 1. Installer Nginx og Flask
 echo "📦 Installer Nginx, Flask og BeautifulSoup..." | tee -a "$LOGFILE"
@@ -228,7 +228,48 @@ sudo chown www-data:www-data /var/www/finn/ocr.py >> "$LOGFILE" 2>&1
 sudo chmod 644 /var/www/finn/ocr.py >> "$LOGFILE" 2>&1
 echo "✅ ocr.py opprettet." | tee -a "$LOGFILE"
 
-# 6. Test Flask direkte
+# 6. Lag index.html
+echo "🧠 Genererer index.html v1.1 for webgrensesnitt..." | tee -a "$LOGFILE"
+TEMP_INDEX_HTML="/tmp/index.html.tmp"
+cat > "$TEMP_INDEX_HTML" << 'EOF'
+<!-- index.html v1.1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FINN Scraper</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Varmepumper fra FINN.no</h1>
+    <div id="heat-pumps"></div>
+    <script>
+        async function loadHeatPumps() {
+            try {
+                const response = await fetch('/api/get_heat_pumps');
+                if (!response.ok) throw new Error('Network error');
+                const data = await response.json();
+                const container = document.getElementById('heat-pumps');
+                container.innerHTML = data.items.map(item => `<p>${item.title} - ${item.price}</p>`).join('');
+            } catch (error) {
+                console.error('Feil ved lasting av varmepumper:', error);
+                document.getElementById('heat-pumps').innerHTML = '<p>Kunne ikke laste data</p>';
+            }
+        }
+        loadHeatPumps();
+    </script>
+</body>
+</html>
+EOF
+if ! sudo mv "$TEMP_INDEX_HTML" /var/www/finn/index.html >> "$LOGFILE" 2>&1; then
+    echo "❌ Feil: Kunne ikke opprette index.html." | tee -a "$LOGFILE"
+    exit 1
+fi
+sudo chown www-data:www-data /var/www/finn/index.html >> "$LOGFILE" 2>&1
+sudo chmod 644 /var/www/finn/index.html >> "$LOGFILE" 2>&1
+echo "✅ index.html opprettet." | tee -a "$LOGFILE"
+
+# 7. Test Flask direkte
 echo "🔍 Tester Flask direkte på http://127.0.0.1:5001..." | tee -a "$LOGFILE"
 if curl -s http://127.0.0.1:5001 > /dev/null; then
     echo "✅ Flask svarer på http://127.0.0.1:5001." | tee -a "$LOGFILE"
@@ -238,4 +279,4 @@ else
     exit 1
 fi
 
-echo "✅ Del 2 fullført: Nginx, Flask, utils.py, scraper.py og ocr.py satt opp." | tee -a "$LOGFILE"
+echo "✅ Del 2 fullført: Nginx, Flask, utils.py, scraper.py, ocr.py og index.html satt opp." | tee -a "$LOGFILE"
