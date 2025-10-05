@@ -1,7 +1,7 @@
 #!/bin/bash
 # finn_del2.sh v128
 # Del 2: Nginx, Flask, utils.py, scraper.py, ocr.py, index.html
-# Oppdatert for å generere index.html v1.1 med fiks for try-catch-feil
+# Oppdatert for å generere index.html v1.2 med tabell for finn_code, title, price, KategoriTest
 
 LOGFILE="/tmp/finn_setup.log"
 echo "Starting finn_del2.sh at $(date)" >> "$LOGFILE"
@@ -229,31 +229,63 @@ sudo chmod 644 /var/www/finn/ocr.py >> "$LOGFILE" 2>&1
 echo "✅ ocr.py opprettet." | tee -a "$LOGFILE"
 
 # 6. Lag index.html
-echo "🧠 Genererer index.html v1.1 for webgrensesnitt..." | tee -a "$LOGFILE"
+echo "🧠 Genererer index.html v1.2 med tabell for webgrensesnitt..." | tee -a "$LOGFILE"
 TEMP_INDEX_HTML="/tmp/index.html.tmp"
 cat > "$TEMP_INDEX_HTML" << 'EOF'
-<!-- index.html v1.1 -->
+<!-- index.html v1.2 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>FINN Scraper</title>
-    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {background-color: #f9f9f9;}
+    </style>
 </head>
 <body>
     <h1>Varmepumper fra FINN.no</h1>
-    <div id="heat-pumps"></div>
+    <table id="heat-pumps">
+        <thead>
+            <tr>
+                <th>Finnkode</th>
+                <th>Tittel</th>
+                <th>Pris</th>
+                <th>Kategori</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
     <script>
         async function loadHeatPumps() {
             try {
                 const response = await fetch('/api/get_heat_pumps');
                 if (!response.ok) throw new Error('Network error');
                 const data = await response.json();
-                const container = document.getElementById('heat-pumps');
-                container.innerHTML = data.items.map(item => `<p>${item.title} - ${item.price}</p>`).join('');
+                const tbody = document.querySelector('#heat-pumps tbody');
+                tbody.innerHTML = data.items.map(item => `
+                    <tr>
+                        <td>${item.finn_code}</td>
+                        <td>${item.title}</td>
+                        <td>${item.price}</td>
+                        <td>${item.KategoriTest || 'Ukjent'}</td>
+                    </tr>
+                `).join('');
             } catch (error) {
                 console.error('Feil ved lasting av varmepumper:', error);
-                document.getElementById('heat-pumps').innerHTML = '<p>Kunne ikke laste data</p>';
+                document.querySelector('#heat-pumps tbody').innerHTML = '<tr><td colspan="4">Kunne ikke laste data</td></tr>';
             }
         }
         loadHeatPumps();
