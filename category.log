@@ -2054,3 +2054,14 @@
 [2025-10-05 23:22:59,762] Rå kategorier funnet: ['Torget', 'Elektronikk og hvitevarer', 'Lyd og bilde', 'Høyttalere']
 [2025-10-05 23:22:59,762] Ekstrahert kategori for Finn-kode 227323975: Høyttalere
 [2025-10-05 23:22:59,762] Feil i KategoriTest-oppdatering: 'ascii' codec can't encode character '\xf8' in position 1: ordinal not in range(128)
+[2025-10-06 00:23:00,049] Starter kategorioppdatering for KategoriTest...
+[2025-10-06 00:23:00,056] Vellykket tilkobling til database
+[2025-10-06 00:23:00,056] Fant 73 annonser for KategoriTest-oppdatering
+[2025-10-06 00:23:00,056] Henter kategori for Finn-kode 227323975 fra https://www.finn.no/recommerce/forsale/item/227323975
+[2025-10-06 00:23:00,237] Vellykket respons fra https://www.finn.no/recommerce/forsale/item/227323975
+[2025-10-06 00:23:00,238] Rå HTML lagret til /var/www/finn/debug/227323975.html
+[2025-10-06 00:23:00,245] Funnet breadcrumb for Finn-kode 227323975: <nav aria-labelledby="breadCrumbLabel" id="breadcrumbs"><h2 class="sr-only" id="breadCrumbLabel">Her er du</h2><div class="flex space-x-8"><a class="s-text-link" href="/recommerce/forsale/search">Torget</a><span class="select-none s-icon">/</span><a class="s-text-link" href="/recommerce/forsale/search?category=0.93">Elektronikk og hvitevarer</a><span class="select-none s-icon">/</span><a class="s-text-link" href="/recommerce/forsale/search?sub_category=1.93.3906">Lyd og bilde</a><span class="select-none s-icon">/</span><a class="s-text-link" href="/recommerce/forsale/search?product_category=2.93.3906.53">Høyttalere</a></div></nav>
+[2025-10-06 00:23:00,245] Fant 4 a-elementer med class 's-text-link' i breadcrumb for Finn-kode 227323975: [<a class="s-text-link" href="/recommerce/forsale/search">Torget</a>, <a class="s-text-link" href="/recommerce/forsale/search?category=0.93">Elektronikk og hvitevarer</a>, <a class="s-text-link" href="/recommerce/forsale/search?sub_category=1.93.3906">Lyd og bilde</a>, <a class="s-text-link" href="/recommerce/forsale/search?product_category=2.93.3906.53">Høyttalere</a>]
+[2025-10-06 00:23:00,245] Rå kategorier funnet: ['Torget', 'Elektronikk og hvitevarer', 'Lyd og bilde', 'Høyttalere']
+[2025-10-06 00:23:00,245] Ekstrahert kategori for Finn-kode 227323975: Høyttalere
+[2025-10-06 00:23:00,245] Feil i KategoriTest-oppdatering: 'ascii' codec can't encode character '\xf8' in position 1: ordinal not in range(128)
