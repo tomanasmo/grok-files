@@ -1,7 +1,7 @@
 #!/bin/bash
-# finn_del2.sh v128
+# finn_del2.sh v129
 # Del 2: Nginx, Flask, utils.py, scraper.py, ocr.py, index.html
-# Oppdatert for å generere index.html v1.2 med tittel "FINN Scraper", lenker for finn_code, og scraper.py v1.1 for pris/deskrivelse
+# Oppdatert for å inkludere pg_hba.conf-endring, index.html v1.2 med tittel "FINN Scraper", lenker for finn_code, og scraper.py v1.1 for pris/deskrivelse
 
 LOGFILE="/tmp/finn_setup.log"
 echo "Starting finn_del2.sh at $(date)" >> "$LOGFILE"
@@ -29,7 +29,21 @@ if ! sudo apt install -y nginx python3-flask python3-bs4 >> "$LOGFILE" 2>&1; the
 fi
 echo "✅ Nginx, Flask og BeautifulSoup installert." | tee -a "$LOGFILE"
 
-# 2. Konfigurer Nginx
+# 2. Konfigurer pg_hba.conf for PostgreSQL
+echo "🗄️ Konfigurerer pg_hba.conf for PostgreSQL-tilkoblinger..." | tee -a "$LOGFILE"
+PG_HBA_CONF=$(find / -name pg_hba.conf 2>/dev/null | head -n 1)
+if [ -z "$PG_HBA_CONF" ]; then
+    echo "❌ Feil: Kunne ikke finne pg_hba.conf." | tee -a "$LOGFILE"
+    exit 1
+fi
+echo "host    finn    postgres    10.10.10.104/32    trust" | sudo tee -a "$PG_HBA_CONF" >> "$LOGFILE" 2>&1
+if ! sudo systemctl reload postgresql >> "$LOGFILE" 2>&1; then
+    echo "❌ Feil: Kunne ikke restarte PostgreSQL." | tee -a "$LOGFILE"
+    exit 1
+fi
+echo "✅ pg_hba.conf konfigurert og PostgreSQL restartet." | tee -a "$LOGFILE"
+
+# 3. Konfigurer Nginx
 echo "🌐 Konfigurerer Nginx..." | tee -a "$LOGFILE"
 TEMP_NGINX_CONF="/tmp/finn.conf"
 cat > "$TEMP_NGINX_CONF" << 'EOF'
@@ -84,7 +98,7 @@ if ! sudo systemctl reload nginx >> "$LOGFILE" 2>&1; then
 fi
 echo "✅ Nginx konfigurert og restartet." | tee -a "$LOGFILE"
 
-# 3. Lag utils.py
+# 4. Lag utils.py
 echo "🧠 Genererer utils.py v1.6 for logging og database..." | tee -a "$LOGFILE"
 TEMP_UTILS_PY="/tmp/utils.py.tmp"
 cat > "$TEMP_UTILS_PY" << 'EOF'
@@ -120,7 +134,7 @@ sudo chown www-data:www-data /var/www/finn/utils.py >> "$LOGFILE" 2>&1
 sudo chmod 644 /var/www/finn/utils.py >> "$LOGFILE" 2>&1
 echo "✅ utils.py opprettet." | tee -a "$LOGFILE"
 
-# 4. Lag scraper.py
+# 5. Lag scraper.py
 echo "🧠 Genererer scraper.py v1.1 for FINN.no scraping med pris og beskrivelse..." | tee -a "$LOGFILE"
 TEMP_SCRAPER_PY="/tmp/scraper.py.tmp"
 cat > "$TEMP_SCRAPER_PY" << 'EOF'
@@ -194,7 +208,7 @@ sudo chown www-data:www-data /var/www/finn/scraper.py >> "$LOGFILE" 2>&1
 sudo chmod 644 /var/www/finn/scraper.py >> "$LOGFILE" 2>&1
 echo "✅ scraper.py opprettet." | tee -a "$LOGFILE"
 
-# 5. Lag ocr.py
+# 6. Lag ocr.py
 echo "🧠 Genererer ocr.py v1.6 for OCR-behandling..." | tee -a "$LOGFILE"
 TEMP_OCR_PY="/tmp/ocr.py.tmp"
 cat > "$TEMP_OCR_PY" << 'EOF'
@@ -244,7 +258,7 @@ sudo chown www-data:www-data /var/www/finn/ocr.py >> "$LOGFILE" 2>&1
 sudo chmod 644 /var/www/finn/ocr.py >> "$LOGFILE" 2>&1
 echo "✅ ocr.py opprettet." | tee -a "$LOGFILE"
 
-# 6. Lag index.html
+# 7. Lag index.html
 echo "🧠 Genererer index.html v1.2 med tabell for webgrensesnitt..." | tee -a "$LOGFILE"
 TEMP_INDEX_HTML="/tmp/index.html.tmp"
 cat > "$TEMP_INDEX_HTML" << 'EOF'
@@ -319,7 +333,7 @@ sudo chown www-data:www-data /var/www/finn/index.html >> "$LOGFILE" 2>&1
 sudo chmod 644 /var/www/finn/index.html >> "$LOGFILE" 2>&1
 echo "✅ index.html opprettet." | tee -a "$LOGFILE"
 
-# 7. Test Flask direkte
+# 8. Test Flask direkte
 echo "🔍 Tester Flask direkte på http://127.0.0.1:5001..." | tee -a "$LOGFILE"
 if curl -s http://127.0.0.1:5001 > /dev/null; then
     echo "✅ Flask svarer på http://127.0.0.1:5001." | tee -a "$LOGFILE"

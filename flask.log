@@ -991,3 +991,13 @@
 [2025-10-06 17:56:35] Hentet 192 rader fra torget
 [2025-10-06 18:04:33] Mottok forespørsel for /, sjekker /var/www/finn/index.html
 [2025-10-06 18:04:33] Serverer index.html
+[2025-10-06 18:05:08] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-06 18:05:08] Serverer index.html
+[2025-10-06 18:05:08] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-06 18:05:08] Hentet 192 rader fra torget
+[2025-10-06 18:05:10] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-06 18:05:10] Serverer index.html
+[2025-10-06 18:05:10] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-06 18:05:10] Hentet 192 rader fra torget
+[2025-10-06 18:40:04] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-06 18:40:04] Serverer index.html
