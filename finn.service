@@ -5,7 +5,7 @@ StartLimitIntervalSec=60
 StartLimitBurst=3
 
 [Service]
-ExecStart=/usr/bin/python3 /var/www/finn/scraper.py
+ExecStart=/usr/bin/python3 /var/www/finn/2200-scraper.py
 WorkingDirectory=/var/www/finn
 Restart=always
 RestartSec=10
