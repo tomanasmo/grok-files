@@ -1005,3 +1005,7 @@
 [2025-10-06 19:57:51] Serverer index.html
 [2025-10-06 19:57:51] Mottok GET-forespørsel for /api/get_heat_pumps
 [2025-10-06 19:57:51] Hentet 193 rader fra torget
+[2025-10-08 15:26:18] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-08 15:26:18] Serverer index.html
+[2025-10-08 15:26:18] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-08 15:26:18] Hentet 197 rader fra torget
