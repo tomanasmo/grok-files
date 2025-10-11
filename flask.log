@@ -1021,3 +1021,8 @@
 [2025-10-09 18:55:46] Serverer index.html
 [2025-10-09 18:55:46] Mottok GET-forespørsel for /api/get_heat_pumps
 [2025-10-09 18:55:46] Hentet 197 rader fra torget
+[2025-10-11 11:15:28] [app.py] Starter Flask-server på port 5001
+[2025-10-11 11:15:38] [app.py] Mottok forespørsel for /, sjekker /var/www/finn/index.html
+[2025-10-11 11:15:38] [app.py] Serverer index.html
+[2025-10-11 11:15:38] [app.py] Mottok GET-forespørsel for /api/get_heat_pumps
+[2025-10-11 11:15:38] [app.py] Kan ikke hente data fra torget: Ingen databasetilkobling

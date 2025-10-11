@@ -3,8 +3,9 @@ from flask import Flask, send_file, request, jsonify
 import os
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from services.utils import log, get_db_connection
 
-from utils import log, get_db_connection
+#from utils import log, get_db_connection
 
 app = Flask(__name__)
 
